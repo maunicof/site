@@ -1,0 +1,127 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+/*.dropdown-submenu:hover>.dropdown-menu{display:block;}*/
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+.padding-left-ten-px { padding-left: 10px; }
+.red-text { color: #FF0000; }
+.twitter-blue { color: #1ec7fe; }
+.facebook-blue { color: #3c599f; }
+.linkedin-blue { color: #0080b2; }
+.navbar-right{padding-right: 25px;}
+.form-group{padding: 1px;}
+.form-panel-width { width: 220px; }/*YOU CAN MAKE PANEL AS WIDE AS NEEDED*/
+.color-blue {color: #0080c5;}
+.color-red {color: #FF0000;}
+.error-message {font-size: 10px;}
+
+@media screen and (min-width: 30em ) {
+  .form-panel-width { width: 100%; }
+}
+
+/*-------------------------*/
+body {
+     background: url('../img/patterns/green_cup.png');
+}
+.fondo-color{
+  background-color: #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 40px;
+}
+
+.publicidad{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*container*/
+
+.descripcion{
+  line-height: 1.42857;
+}
+.descripcion2{
+  line-height: 1.42857;
+  font-size: 12pt; 
+}
+.margen-sidebar{
+  margin-left: 0;
+}
+.jumbotron { 
+ background: green no-repeat center center ; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+
+.pad{
+	padding-top: 160px;
+
+}
+.mar{
+	margin-top: 80px;
+}
+.mar-desc{
+  margin-top: 50px;
+}
+.mar-b{
+  margin-bottom: 40px;
+  padding-right: 40px;
+}
+.mar-c{
+  margin-bottom: 20px;
+}
+
+/*.navbar-inverse{
+	background-color: #003333;
+  
+}*/
+.margen-derecho{
+	padding-right: 200px;
+}
+.blog-header{
+	padding-top: 0;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 300px;
+  width: 100%;
+
+  margin-top: 160px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 300px;
+  background-color: #777;
+  width: 100%;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+/*Personalizacion de nav bar*/
+
+/* navbar */
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF;
+}
