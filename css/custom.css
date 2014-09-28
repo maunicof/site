@@ -24,19 +24,37 @@
   .form-panel-width { width: 100%; }
 }
 
+
+
+.navbar {
+     background-color: black;
+
+}
+.colorTitulo{
+  color: #E5E5E5; 
+}
 /*-------------------------*/
 body {
-     background: url('../img/patterns/green_cup.png');
+     background: url('../img/patterns/binding_dark.png');
+       color: #E5E5E5; 
+}
+.sub{
+  color: gray; 
+}
+.nombre{
+  margin-top:15px;
 }
 .fondo-color{
   background-color: #E5E5E5;
   border-bottom: 1px solid #E5E5E5;
   margin-bottom: 40px;
 }
-
-.publicidad{
-  padding-top: 20px;
-  padding-bottom: 20px;
+.index{
+  background: url('../img/background/rall.jpg');
+}
+.logo{
+  margin: 10px;
+  width: 100px;
 }
 /*container*/
 
@@ -64,7 +82,7 @@ body {
 
 }
 .mar{
-	margin-top: 80px;
+	margin-top: 50px;
 }
 .mar-desc{
   margin-top: 50px;
